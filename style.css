@@ -1,0 +1,648 @@
+body {
+  background: #EFEFEF;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+    background-color: #EEEFE5;
+
+}
+
+#header {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #222;
+  color: white;
+}
+#header h1 {
+  top: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.nav {
+  position: absolute;
+  right: 0;
+  top: -15px;
+  height: 60px;
+  background-color: #222;
+ 
+}
+.nav ul li {
+  float: left;
+  list-style: none;
+}
+.nav ul li a {
+  display: block;
+  color: #EFEFEF;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.5s all ease-in;
+  -webkit-transition: 0.5s all ease-in;
+  -moz-transition: 0.5s all ease-in;
+  font-size: 23px;
+  font-weight: bold
+
+}
+
+.nav ul li a:hover {
+
+  transform: rotate(180deg);
+
+
+}
+
+.nav .icon{
+  display: none;
+}
+
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1100px;
+  font-family: helvetica, sans-serif;
+}
+.content {
+  position: relative;
+  padding-top: 80px;
+  background-image: url(pic1.jpg);
+  background-repeat: repeat;
+  height: 700px;
+}
+.container1 {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1100px;
+  font-family: helvetica, sans-serif;
+  height: auto;
+
+}
+
+#aboutleft{
+
+  width: 50%;
+  float: left;
+  height: auto;
+  font-size: 1.4em;
+   
+
+}
+
+#aboutright{
+
+  width: 40%;
+  float: right;
+  height: auto;
+
+
+}
+
+#aboutright img{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s all ease-in;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    transform: skew(5deg);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+    background: #4178A0;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #3395C4;
+    color: white;
+}
+
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #344141; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+section{
+  width: 100%;
+  background-color: #000;
+  height: auto;
+  overflow: hidden;
+  color:#efe; 
+
+}
+
+#section{
+  margin: 0;
+  width: 100%;
+
+  height: 500px;
+}
+#myWorks{
+  visibility: none;
+}
+
+article{
+  margin:0;
+  padding:0;
+  background-color: #363639;
+  width: 24.9%;
+  float: left;
+  height: auto;
+  border-right: 2px solid #EEEFE5;
+  border-bottom: 1px solid #EEEFE5;
+
+}
+article:last-child{
+
+   border-right: none;
+}
+article:nth-child(odd){
+
+  background-color: ;
+}
+
+center img{
+
+
+  padding-top:15px;
+  transition: 0.5s all ease-in;
+  -webkit-transition: 0.5s all ease-in;
+  -moz-transition: 0.5s all ease-in;
+  -ms-transition: 0.5s all ease-in;
+
+
+
+}
+
+center:hover img{
+  transform: scale(1.1);
+}
+
+article span{
+  
+}
+article p{
+  font-size: 20px;
+  /*color: #d76713;*//
+  font-family: helevtica;
+
+}
+
+
+#contacts{
+
+
+  padding:2%;
+}
+#ContactMe{
+
+  font-size: 45px;
+  font-family: verdana;
+
+}
+
+.note{
+  
+
+  width: 40%;
+  font-size: 23px;
+  font-family: helvetica;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.forms{
+ text-size:40px;
+}
+
+.forms input[type="text"], .forms input[type="email"]{
+
+width: 30%;
+height: 45px;
+margin: 5px;
+border-radius: 7px 7px 7px 7px;
+border: none;
+text-align: center;
+font-size: 23px;
+background-color: #363639;
+color: #EEEFE5;
+}
+
+.forms textarea{
+
+width: 30%;
+height: 100px;
+margin: 5px;
+border-radius: 7px 7px 7px 7px;
+border: none;
+text-align: center;
+font-size: 23px;
+color:#EEEFE5;
+background-color: #363639;
+
+}
+
+.forms button, .forms input[type="button"]{
+  margin:5px;
+  height: 50px;
+  width: 15%;
+  background: #efef;
+  border-radius: 7px 7px 7px 7px;
+  border: none;
+  font-size: 23px;
+   transition: 0.5s all ease-in;
+  -webkit-transition: 0.5s all ease-in;
+  -moz-transition: 0.5s all ease-in;
+  -ms-transition: 0.5s all ease-in;
+}
+
+.forms button:hover, .forms input[type="button"]:hover{
+
+  background-color: #363639;
+  color: #EFEFEF;
+
+
+
+}
+
+
+
+
+.works{
+  width: 20px;
+}
+.content p {
+  margin-bottom: 10px;
+}
+
+
+
+.clear{
+  clear: both
+}
+
+
+.popupleft{
+    width: 60%;
+    float: left;
+}
+
+.popupleft h2{
+  color: #d76713;
+}
+
+.popupleft img{
+  width: 80%;
+  height: 90%;
+}
+
+.popupright p{
+  text-align: justify;
+  margin-left: 38px;
+}
+
+
+.popupright{
+
+  width: 30%;
+    float: left;
+    margin-left: 2em;
+    position: relative;
+    bottom: 40px;
+
+
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #363639;
+    padding: 2%;
+    font-size: 16px;
+    text-align: center;
+    height: 35px;
+    color: #efe;
+}
+
+ul li{
+  list-style: none;
+}
+
+#butt {
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #363639;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+#butt:active {
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+@media (max-width: 599px) {
+  #header .container {
+    width: 100%;
+  }
+  #header h1 {
+    padding-left: 3%;
+  }
+  .nav {
+    width: 100%;
+    top: 60px;
+    background:transparent;
+  }
+  .nav .icon{
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: -50px;
+    line-height: 40px;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+
+
+
+  .nav ul {
+    background: #222;
+    width: 100%;
+    margin: 0px;
+  }
+  .nav ul li {
+    float: none;
+
+  }
+  .nav ul li a {
+    padding: 10px 3%;
+    line-height: 20px;
+    border-top: 1px solid #333;
+    display: none;
+  }
+.responsive ul li a{
+    display: block
+  }
+}
+
+
+
+
+@media(max-width:900px){
+
+.popupleft, .popupright {
+    width: 46%;
+    float: left;
+    margin: 0 1em;
+  }
+  .popupright h4 , .feat h4{
+    font-size: 18px;
+  }
+
+}
+
+
+
+@media(max-width:800px){
+
+.popupleft, .popupright {
+    width: 45%;
+  }
+
+}
+
+
+
+
+
+@media(max-width:667px){
+
+
+  .popupleft, .popupright {
+    margin: 0 .8em;
+  }
+}
+
+@media(max-width:568px){
+
+
+  .popupleft {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .popupright {
+    width: 95%;
+  }
+
+}
+
+
+
+@media(max-width:440px){
+
+
+  .popupleft {
+    width: 80%;
+  }
+}
+
+@media(max-width:414px){
+
+  .popupleft {
+    width: 80%;
+  }
+  .popupright h4 ,.feat h4 {
+    line-height: 27px;
+  }
+
+}
+
+@media(max-width:375px){
+  .img1 li, .img2 li {
+    padding: 0 2em;
+  }
+  .popupright h4 , p h4{
+    font-size: 17px;
+  }
+}
+
+
+
+@media(max-width:380px){
+  body{
+    width: 100%;
+    height: auto
+  }
+  h1 {
+    font-size: 21px;
+    letter-spacing: 2px;
+  }
+  .login-section {
+    width: 85%;
+  }
+  .my-mfp-zoom-in.mfp-ready #small-dialog, .my-mfp-zoom-in.mfp-ready #small-dialog1, .my-mfp-zoom-in.mfp-ready #small-dialog2, .my-mfp-zoom-in.mfp-ready #small-dialog3, .my-mfp-zoom-in.mfp-ready #small-dialog4, .my-mfp-zoom-in.mfp-ready #small-dialog5, .my-mfp-zoom-in.mfp-ready #small-dialog6, .my-mfp-zoom-in.mfp-ready #small-dialog7 {
+    padding: 30px 10px;
+  }
+  .popupright {
+    width: 92%;
+  }
+  input[type="text"], input[type="tel"], textarea {
+    width: 85%;
+  }
+
+
+
+#header h1{
+
+   font-size: 1em;
+
+}
+
+#content{
+  width: 100%;
+  height: auto;
+
+}
+#container{
+  margin: 0;
+  padding: 0;
+ width: 100%;
+ height: auto; 
+ overflow: hidden;
+}
+
+#container h1, #container h2{
+
+  color:red;
+
+
+
+}
+#container1{
+
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+}
+#aboutleft, #aboutright{
+  width: 100%;
+  height: auto;
+  float: left;
+  font-size:1.2em;
+
+}
+section{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  float: left
+
+
+}
+.note{
+  width: 100%;
+  float: left;
+  height: auto;
+}
+.forms{
+  float: left;
+  width: 100%;
+}
+article{
+
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.forms input[type="text"], .forms input[type="email"],.forms textarea{
+
+width: 100%;
+float: left;
+height: auto;
+margin:0;
+padding: 0;
+margin-bottom: 1em;
+}
+.forms button, .forms input[type="button"]{
+
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+}
+
+
+/*--responsive--*/
